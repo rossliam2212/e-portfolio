@@ -145,6 +145,17 @@ section {
     margin-bottom: -.5em;
 }
 
+.portfolio-title-wrapper {
+    display: flex;
+}
+
+.portfolio-title-wrapper img {
+    width: 15px;
+    /* margin-bottom: -50em; */
+    margin-top: 1.85em;
+    margin-left: .3em;
+}
+
 .portfolio-description {
     font-weight: 100;
     font-size: 0.9em;
@@ -270,7 +281,7 @@ section {
         height: 90%;
     }
 
-    .portfolio-container img {
+    .portfolio-container .portfolio-image {
         height: 90%;
     }
 

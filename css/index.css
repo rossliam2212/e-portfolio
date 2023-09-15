@@ -132,8 +132,8 @@ section {
     margin-bottom: 1.5em;
 }
 
-.inner a:hover {
-    text-shadow: 0 0 .5px black;
+.inner .shadow:hover {
+    text-shadow: 0 0 .5px #1c2d53;
 }
 
 .inner-one {
@@ -163,7 +163,7 @@ section {
 }
 
 .we-title {
-    color: black;
+    color: #1c2d53;
     font-weight: bold;
     font-size: 1.3em;
     display: block;
@@ -172,6 +172,30 @@ section {
 
 .we-description {
     font-weight: 100;
+}
+
+.resume-download {
+    color: #fca311;
+    text-shadow: 0;
+    /* background: #1c2d53; */
+    border-radius: 1em;
+    font-family: "Roboto Mono";
+}
+
+.resume-download:hover {
+    text-decoration: underline;
+    text-decoration-color: #fca311;
+}
+
+.resume-container {
+    margin-top: 2em;
+    display: flex;
+}
+
+.arrow {
+    width: 15px;
+    margin-top: .2em;
+    margin-left: .2em;
 }
 
 .skills {
