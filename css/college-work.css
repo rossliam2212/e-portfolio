@@ -1,0 +1,261 @@
+@charset "utf-8";
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;400;700&display=swap');
+
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: "Heebo", arial;
+    text-transform: lowercase;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+.nav-container {
+    background: #14213d;
+}
+
+.nav-container a {
+    color: white;
+}
+
+.nav-container a:hover {
+    text-decoration: underline;
+    text-decoration-color: #fca311;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+    /* margin-left: 100px; */
+}
+
+header .logo {
+    font-weight: bold;
+    color: #fca311;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul a {
+    display: block;
+    padding: 0 1.5em;
+}
+
+.social-header, .hero-art {
+    display: none;
+}
+
+.hero-wrapper {
+    background: #14213d;
+    display: grid;
+    padding: 1.5em;
+}
+
+.hero {
+    color: white;
+    text-align: left;
+}
+
+.pretitle {
+    color: #fca311;
+    margin-bottom: -3em;
+    font-size: .8em;
+    letter-spacing: 0.3em;
+    font-family: "Roboto Mono";
+}
+
+.title {
+    font-size: 4em;
+}
+
+.subtitle {
+    margin-top: -2em;
+    color: rgb(176, 176, 176);
+}
+
+.descrption {
+    font-weight: 100;
+}
+
+section {
+    padding: 4em 2em;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.portfolio {
+    background: #1c2d53 ;
+    /* background: white ; */
+}
+
+.portfolio-left .inner {
+    background: #14213d;
+    padding: 1.5em;
+    border-radius: 1em;
+}
+
+.portfolio-container img {
+    border-radius: 1em;
+    text-align: center;
+    /* background: #14213d; */
+}
+
+.portfolio-subtitle {
+    font-weight: bold;
+    letter-spacing: .2em;
+    font-size: 0.8em;
+    font-family: "Roboto Mono";
+    color: #fca311;
+    margin-bottom: -1.75em;
+}
+
+.portfolio-title {
+    color: white;
+    font-weight: bold;
+    font-size: 1.3em;
+    display: block;
+    margin-bottom: -.5em;
+}
+
+.portfolio-description {
+    font-weight: 100;
+    font-size: 0.9em;
+    color: white;
+}
+
+.portfolio-sub-description {
+    font-weight: 100;
+    font-size: .7em;
+    color: white;
+}
+
+.portfolio-sub-description .sub-desc {
+    color: #fca311;
+    font-weight: bold;
+}
+
+.portfolio-sub-description-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.portfolio-description .mono-space {
+    font-family: "Roboto Mono";
+    /* letter-spacing: 0.2em; */
+}
+
+.portfolio-description a {
+    color:white;
+    text-decoration: none;
+}
+
+.portfolio-description a:hover {
+    text-decoration: underline;
+    text-decoration-color: #fca311;
+}
+
+@media only screen and (min-width: 800px) {
+    .portfolio {
+        text-align: left;
+    }
+
+    .portfolio-container {
+        display: grid;
+        grid-template-columns: 50% auto;
+    }
+
+    /* .portfolio-left {
+        display: grid;
+        place-content: center;
+    } */
+}
+
+@media only screen and (min-width: 1050px) {
+    .hero {
+        height: 90vh;
+    }
+
+    .hero {
+        display: grid;
+        grid-template-columns: 66% auto;
+        background: unset;
+        padding: 0;
+    }
+
+    .hero .content {
+        text-align: left;
+        padding: 6em 8em 6em 4em;
+    }
+
+    .hero .descrption {
+        width: 500px;
+    }
+
+    .nav-container {
+        display: grid;
+        grid-template-columns: 66% auto;
+        background: #14213d;;
+    }
+
+    .nav-container header {
+        background: #14213d;
+    }
+
+    header {
+        padding: 2em 2em 2em 4em;
+    }
+
+    .social-header {
+        display: block;
+        padding: 2em 4em 2em 0;
+    }
+
+    .social-header ul {
+        display: flex;
+        justify-content: space-between;
+        width: 7em;
+        float: right;
+    }
+
+    .social-header ul img {
+        width: 20px;
+    }
+
+    section {
+        padding: 4em;
+    }
+
+    .hero-art {
+        display: block;
+        margin-left: -25%;
+        height: 90%;
+    }
+
+    .portfolio-container img {
+        height: 90%;
+    }
+
+    .portfolio-left .inner {
+        margin-right: 2em;
+    }
+}

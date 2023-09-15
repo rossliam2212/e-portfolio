@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LR - Commercial Work</title>
+    <link rel="stylesheet" href="../css/commercial-work.css">
+</head>
+<body>
+        <!-- Navigation bar -->
+        <div class="nav-container">
+            <header>
+                <a href="../index.html" class="logo">L</a>
+    
+                <!-- Navigation links -->
+                <nav>
+                    <ul>
+                        <li><a href="../index.html">about</a></li>
+                        <li><a href="../index.html#my-work">work</a></li>
+                        <li><a href="contact.html">contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+    
+            <!-- Social links -->
+            <div class="social-header">
+                <ul>
+                    <li><a href="https://twitter.com/rossliam_" target="_blank"><img src="../resources/twitter-color.png" alt="twitter"></a></li>
+                    <li><a href="https://www.linkedin.com/in/rossliam2212/" target="_blank"><img src="../resources/linkedin-color.png" alt="linkedin"></a></li>
+                    <li><a href="https://github.com/rossliam2212" target="_blank"><img src="../resources/github-color.png" alt="github"></a></li>
+                </ul>
+            </div>
+        </div>
+    
+        <!-- Header content -->
+        <div class="hero-wrapper">
+            <div class="hero">
+                <div class="content">
+                    <p class="pretitle stagger1">hi, my name is</p>
+                    <h1 class="title stagger1">liam ross.</h1>
+                    <h1 class="subtitle stagger1">commercial :: coming soon....</h1>
+                    <p class="descrption stagger1">Recently a friend of mine and I have come together and we have had an idea. This idea is for a mobile app; a tool that helps users improve at a specific skill and we plan to commercialize it. We have had several discussions and have laid a development plan out. Unfortunately, I cannot share any further details as the app is only in its early stage of development. More to come soon!</p>
+                </div>
+                <img src="../resources/art3.png" alt="Art" class="hero-art">
+            </div>
+        </div>
+
+
+        <!-- Animations w/ JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        <script>
+            gsap.registerPlugin(ScrollTrigger);
+            var tl = gsap.timeline()
+
+            tl.from('.content',  {
+                y: '-30%',
+                opacity: 0,
+                duration: 2,
+                ease: Power4.easeOut
+            })
+
+            tl.from('.stagger1', {
+                y: '-50%',
+                opacity: 0,
+                stagger: .3,
+                duration: 2,
+                ease: Power4.easeOut
+            }, '-=1.5')
+
+            tl.from('.hero-art', {
+                opacity: 0,
+                y: '50%',
+                ease: Power4.easeOut
+            }, '-=1.5')
+        </script>
+</body>
+</html>
