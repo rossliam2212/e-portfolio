@@ -41,7 +41,7 @@
                 <h1 class="title stagger1">liam ross.</h1>
                 <h1 class="subtitle stagger1">this is my personal work...</h1>
                 <p class="descrption stagger1">This section highlights some of my main side projects that I have completed since I started college.</p>
-                <p class="descrption stagger1">Click on the github logo beside a project to view it on github.</p>
+                <p class="descrption stagger1">Click on the little github logo beside a project to view it on github.</p>
             </div>
             <img src="../resources/art2.png" alt="Art" class="hero-art">
         </div>
@@ -50,62 +50,58 @@
     <!-- Personal work portfolio -->
     <section class="portfolio">
 
-        <!-- llog library -->
+        <!-- lz77 & lzw compression -->
         <div class="portfolio-container">
             <div class="portfolio-left">
                 <div class="inner">
-                    <p class="portfolio-subtitle">llog</p>
+                    <p class="portfolio-subtitle">lz77 compression</p>
 
                     <div class="portfolio-title-wrapper">
-                        <p class="portfolio-title">C++ :: logging library</p>
-                        <a href="https://github.com/rossliam2212/llog" target="_blank"><img src="../resources/github-color.png" alt="GitHub logo"></a>
+                        <p class="portfolio-title">java :: lz77 compression</p>
+                        <a href="https://github.com/rossliam2212/LZ77CompressionAlgorithm" target="_blank"><img src="../resources/github-color.png" alt="GitHub logo"></a>
                     </div>
 
-                    <p class="portfolio-description"><span class="mono-space">llog</span> is an easy to use, customizable c++ logging library. The inspiration for this project came during my time on my internship with ericsson. I was exposed to the Java logging library <span class="mono-space">log4j</span>, from the beginning and used it through out my entire time there. As c++ is my preferred language, I tasked myself with developing a simple logger, based on the design of <span class="mono-space">log4j</span>, that I could use for my own future c++ projects.</p>
-                    <p class="portfolio-description">The library provies a simple API for creating log messages at different log levels, as well as settings custom formats and colors and enabling/disabling log levels. Instructions on how to install and use the library can be found in the <a href="https://github.com/rossliam2212/llog/blob/master/README.md" target="_blank" class="mono-space">README</a> on my github.</p>
+                    <p class="portfolio-description">This project was something that I completed in my second year of college. In my <span class="mono-space">Maths</span> module, we learned about different types of compression/decompression algorithms, in particular <span class="mono-space">lz77</span> & <span class="mono-space">lzw</span>. I tasked myself with replicating the <span class="mono-space">lz77</span> algorithm in java. The project in its current state is limited. The user has to manually type out and enter the character stream which represents the image, which doesn't make it feasible for larger images. The program outputs an encoding/decoding table which shows how each pixel in the image compressed/decompressed, along with the reduction achieved at the end. Examples of 8x8 images can be found in the <a href="https://github.com/rossliam2212/LZ77CompressionAlgorithm/blob/master/README.md" target="_blank" class="mono-space">README</a> on my github.</p>
                     <div class="portfolio-sub-description-wrapper">
-                        <p class="portfolio-sub-description"><span class="sub-desc">Tools used:</span> c++, catch2, jetbrains clion</p>
-                        <p class="portfolio-sub-description"><span class="sub-desc">Platforms:</span> macOS (clang 3.5+)</p>
+                        <p class="portfolio-sub-description"><span class="sub-desc">Tools used:</span> java, jetbrains intellij</p>
+                        <p class="portfolio-sub-description"><span class="sub-desc">Platforms:</span> cross</p>
                     </div>
                 </div>
             </div>
-
 
             <div class="portfolio-right">
                 <div class="inner">
-                    <p class="portfolio-subtitle">llog</p>
+                    <p class="portfolio-subtitle">lzw compression</p>
 
                     <div class="portfolio-title-wrapper">
-                        <p class="portfolio-title">C++ :: logging library</p>
-                        <a href="https://github.com/rossliam2212/llog" target="_blank"><img src="../resources/github-color.png" alt="GitHub logo"></a>
+                        <p class="portfolio-title">java :: lzw compression</p>
+                        <a href="https://github.com/rossliam2212/LZWCompressionAlgorithm" target="_blank"><img src="../resources/github-color.png" alt="GitHub logo"></a>
                     </div>
 
-                    <p class="portfolio-description"><span class="mono-space">llog</span> is an easy to use, customizable c++ logging library. The inspiration for this project came during my time on my internship with ericsson. I was exposed to the Java logging library <span class="mono-space">log4j</span>, from the beginning and used it through out my entire time there. As c++ is my preferred language, I tasked myself with developing a simple logger, based on the design of <span class="mono-space">log4j</span>, that I could use for my own future c++ projects.</p>
-                    <p class="portfolio-description">The library provies a simple API for creating log messages at different log levels, as well as settings custom formats and colors and enabling/disabling log levels. Instructions on how to install and use the library can be found in the <a href="https://github.com/rossliam2212/llog/blob/master/README.md" target="_blank" class="mono-space">README</a> on my github.</p>
+                    <p class="portfolio-description">Similar to the <span class="mono-space">lz77</span> project, this project was something I completed in my second year of college. The <span class="mono-space">lzw</span> algorithm was the other compression algorithm we learned about, and for the same reason as above, I tasked myself with replicating the algorithm in java. Similarly, this project is quite limited. The user has to manually type out and enter the character stream which represents the image,  however the program does output the root dictionary, encoding table, extended dictionary, code-stream, and the reduction achieved. An example of a 16x16 image being compressed can be found in the <a href="https://github.com/rossliam2212/LZWCompressionAlgorithm/blob/master/README.md" target="_blank" class="mono-space">README</a> on my github.</p>
                     <div class="portfolio-sub-description-wrapper">
-                        <p class="portfolio-sub-description"><span class="sub-desc">Tools used:</span> c++, catch2, jetbrains clion</p>
-                        <p class="portfolio-sub-description"><span class="sub-desc">Platforms:</span> macOS (clang 3.5+)</p>
+                        <p class="portfolio-sub-description"><span class="sub-desc">Tools used:</span> java, jetbrains intellij</p>
+                        <p class="portfolio-sub-description"><span class="sub-desc">Platforms:</span> cross</p>
                     </div>
                 </div>
             </div>
-            <!-- <img src="../resources/personal-work-crystalball.jpg" alt="Test" class="portfolio-image"> -->
         </div>
 
-        <!-- dt library -->
+        <!-- lib llog & dt-->
         <div class="portfolio-container">
             <div class="portfolio-left">
                 <div class="inner">
-                    <p class="portfolio-subtitle">dt</p>
+                    <p class="portfolio-subtitle">llog</p>
 
                     <div class="portfolio-title-wrapper">
-                        <p class="portfolio-title">C++ :: date and time library</p>
-                        <a href="https://github.com/rossliam2212/dt" target="_blank"><img src="../resources/github-color.png" alt="GitHub logo"></a>
+                        <p class="portfolio-title">C++ :: logging library</p>
+                        <a href="https://github.com/rossliam2212/llog" target="_blank"><img src="../resources/github-color.png" alt="GitHub logo"></a>
                     </div>
 
-                    <p class="portfolio-description"><span class="mono-space">dt</span> is an easy to use c++ date and time library. This project was the product of some spare time I had towards the end of my internship at ericsson. There was no particular usecase that I needed it for, however I wanted to take it as a learning experience in c++ library development.</p>
-                    <p class="portfolio-description">The library offers many features such as date and time manipulation, calendar calculations, stopwatch functionality, handling formatted dates and exception handling for invalid dates and times. Instructions on how to install and use the library can be found in the <a href="https://github.com/rossliam2212/dt/blob/master/README.md" target="_blank" class="mono-space">README</a> on my github.</p>
+                    <p class="portfolio-description"><span class="mono-space">llog</span> is an easy to use, customizable c++ logging library. The inspiration for this project came during my time on my internship with ericsson. I was exposed to the Java logging library <span class="mono-space">log4j</span>, from the beginning and used it through out my entire time there. As c++ is my preferred language, I tasked myself with developing a simple logger, based on the design of <span class="mono-space">log4j</span>, that I could use for my own future c++ projects.</p>
+                    <p class="portfolio-description">The library provies a simple API for creating log messages at different log levels, as well as settings custom formats and colors and enabling/disabling log levels. Instructions on how to install and use the library can be found in the <a href="https://github.com/rossliam2212/llog/blob/master/README.md" target="_blank" class="mono-space">README</a> on my github.</p>
                     <div class="portfolio-sub-description-wrapper">
-                        <p class="portfolio-sub-description"><span class="sub-desc">Tools used:</span> c++, googletest, jetbrains clion</p>
+                        <p class="portfolio-sub-description"><span class="sub-desc">Tools used:</span> c++, catch2, jetbrains clion</p>
                         <p class="portfolio-sub-description"><span class="sub-desc">Platforms:</span> macOS (clang 3.5+)</p>
                     </div>
                 </div>
@@ -128,7 +124,6 @@
                     </div>
                 </div>
             </div>
-            <!-- <img src="../resources/personal-work-crystalball.jpg" alt="Test" class="portfolio-image"> -->
         </div>
 
         <!-- space invaders -->
@@ -153,54 +148,10 @@
                 </div>
             </div>
 
-            <!-- <img src="../resources/personal-work-crystalball.jpg" alt="Test" class="portfolio-image"> -->
+            <!-- space invaders demo video -->
             <video class="portfolio-video" controls>
                 <source src="../resources/SpaceInvaders.mov">
             </video>
-        </div>
-
-        <!-- lz77 compression -->
-        <div class="portfolio-container">
-            <div class="portfolio-left">
-                <div class="inner">
-                    <p class="portfolio-subtitle">lz77 compression</p>
-
-                    <div class="portfolio-title-wrapper">
-                        <p class="portfolio-title">java :: lz77 compression</p>
-                        <a href="https://github.com/rossliam2212/LZ77CompressionAlgorithm" target="_blank"><img src="../resources/github-color.png" alt="GitHub logo"></a>
-                    </div>
-
-                    <p class="portfolio-description">This project was something that I completed in my second year of college. In my <span class="mono-space">Maths</span> module, we learned about different types of compression/decompression algorithms, in particular <span class="mono-space">lz77</span> & <span class="mono-space">lzw</span>. I tasked myself with replicating the <span class="mono-space">lz77</span> algorithm in java. The project in its current state is limited. The user has to manually type out and enter the character stream which represents the image, which doesn't make it feasible for larger images. The program outputs an encoding/decoding table which shows how each pixel in the image compressed/decompressed, along with the reduction achieved at the end. Examples of 8x8 images can be found in the <a href="https://github.com/rossliam2212/LZ77CompressionAlgorithm/blob/master/README.md" target="_blank" class="mono-space">README</a> on my github.</p>
-                    <div class="portfolio-sub-description-wrapper">
-                        <p class="portfolio-sub-description"><span class="sub-desc">Tools used:</span> java, jetbrains intellij</p>
-                        <p class="portfolio-sub-description"><span class="sub-desc">Platforms:</span> cross</p>
-                    </div>
-                </div>
-            </div>
-
-            <img src="../resources/personal-work-crystalball.jpg" alt="Test" class="portfolio-image">
-        </div>
-
-        <!-- lzw compression -->
-        <div class="portfolio-container">
-            <div class="portfolio-left">
-                <div class="inner">
-                    <p class="portfolio-subtitle">lzw compression</p>
-
-                    <div class="portfolio-title-wrapper">
-                        <p class="portfolio-title">java :: lzw compression</p>
-                        <a href="https://github.com/rossliam2212/LZWCompressionAlgorithm" target="_blank"><img src="../resources/github-color.png" alt="GitHub logo"></a>
-                    </div>
-
-                    <p class="portfolio-description">Similar to the <span class="mono-space">lz77</span> project above, this project was something I completed in my second year of college. The <span class="mono-space">lzw</span> algorithm was the other compression algorithm we learned about, and for the same reason as above, I tasked myself with replicating the algorithm in java. Similarly, this project is quite limited. The user has to manually type out and enter the character stream which represents the image,  however the program does output the root dictionary, encoding table, extended dictionary, code-stream, and the reduction achieved. An example of a 16x16 image being compressed can be found in the <a href="https://github.com/rossliam2212/LZWCompressionAlgorithm/blob/master/README.md" target="_blank" class="mono-space">README</a> on my github.</p>
-                    <div class="portfolio-sub-description-wrapper">
-                        <p class="portfolio-sub-description"><span class="sub-desc">Tools used:</span> java, jetbrains intellij</p>
-                        <p class="portfolio-sub-description"><span class="sub-desc">Platforms:</span> cross</p>
-                    </div>
-                </div>
-            </div>
-
-            <img src="../resources/personal-work-crystalball.jpg" alt="Test" class="portfolio-image">
         </div>
     </section>
 

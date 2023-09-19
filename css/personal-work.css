@@ -307,6 +307,10 @@ section {
     }
 
     .portfolio-left .inner {
-        margin-right: 2em;
+        margin-right: 1em;
+    }
+
+    .portfolio-right .inner {
+        margin-left: 1em;
     }
 }
