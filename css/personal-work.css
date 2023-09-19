@@ -103,6 +103,7 @@ header nav ul a {
 
 .descrption {
     font-weight: 100;
+    text-align: justify;
 }
 
 section {
@@ -116,9 +117,19 @@ section {
     /* background: white ; */
 }
 
+.portfolio-container {
+    margin-top: 2em;
+}
+
 .portfolio-left .inner {
     background: #14213d;
-    padding: 1.5em;
+    padding: 1em;
+    border-radius: 1em;
+}
+
+.portfolio-right .inner {
+    background: #14213d;
+    padding: 1em;
     border-radius: 1em;
 }
 
@@ -126,6 +137,12 @@ section {
     border-radius: 1em;
     text-align: center;
     /* background: #14213d; */
+}
+
+.portfolio-container video {
+    border-radius: 1em;
+    width: 50%;
+    margin-bottom: 1em;
 }
 
 .portfolio-subtitle {
@@ -283,6 +300,10 @@ section {
 
     .portfolio-container .portfolio-image {
         height: 90%;
+    }
+
+    .portfolio-container .portfolio-video {
+        width: 50%;
     }
 
     .portfolio-left .inner {

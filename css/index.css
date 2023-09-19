@@ -84,6 +84,20 @@ header nav ul a {
     font-family: "Roboto Mono";
 }
 
+
+.mono-space {
+    font-family: "Roboto Mono";
+}
+
+.inner a {
+    color: black;
+}
+
+.inner a:hover {
+    text-decoration: underline;
+    text-decoration-color: #fca311;
+}
+
 .title {
     font-size: 4em;
 }
@@ -95,6 +109,7 @@ header nav ul a {
 
 .descrption {
     font-weight: 100;
+    text-align: justify;
 }
 
 section {
@@ -172,6 +187,7 @@ section {
 
 .we-description {
     font-weight: 100;
+    text-align: justify;
 }
 
 .resume-download {
