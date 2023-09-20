@@ -1,0 +1,13 @@
+index
+- Add cv pdf
+
+personal-work
+
+college-work
+- Add images for the projects
+
+commercial-work
+---- done 
+
+contact
+---- done 
