@@ -1,3 +1,3 @@
 ### E-Portfolio
 
-[View online!](https://www.liamross.online)
+[View online!](liamross.online)
